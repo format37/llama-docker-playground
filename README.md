@@ -11,6 +11,9 @@ To use this project, we need to do **two things**:
 - and the second thing is to build the image with the docker
   - (saves time compared to downloading from Docker Hub)
 
+### To adjust the Maximum sequence length and Memory requirements
+Set another value of the max_seq_len
+
 ### Put the Models File in Right Place
 
 Taking the smallest model as an example, you need to place the model related files like this:
