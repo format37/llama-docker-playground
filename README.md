@@ -12,7 +12,7 @@ To use this project, we need to do **two things**:
   - (saves time compared to downloading from Docker Hub)
 
 ### To adjust the Maximum sequence length and Memory requirements
-Set another value of the max_seq_len
+Set another value of the max_seq_len in the webui/llama.py
 
 ### Put the Models File in Right Place
 
