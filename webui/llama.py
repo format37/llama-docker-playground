@@ -12,7 +12,8 @@ from fairscale.nn.model_parallel.initialize import initialize_model_parallel
 from llama import ModelArgs, Transformer, Tokenizer, LLaMA
 
 
-ckpt_dir = "models/7B"
+# ckpt_dir = "models/7B"
+ckpt_dir = os.environ.get("CKPT_DIR", "models/7B")
 tokenizer_path = "models/tokenizer.model"
 temperature = 0.8
 top_p = 0.95
